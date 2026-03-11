@@ -1,42 +1,46 @@
 Hi there, I'm Kauan! 👋
 
 ```java
-package KauanCavalcante;
+package dev.kauan;
 
 import java.util.List;
 import java.util.Map;
 
-public class KauanCavalcante {
+public class Kauan {
 
-    public static Map<String, String> GetCurrentWorkPosition() {
+    public static Map<String, String> getCurrentPosition() {
         return Map.of(
-            "company", "University / Personal Projects",
-            "position", "Software Engineering Student"
+            "role", "Software Engineering Student",
+            "focus", "Backend and Fullstack Development"
         );
     }
 
-    public static String GetYoutubeChannel() {
-        return "https://www.youtube.com/";
+    public static String getUniversity() {
+        return "Bachelor's Degree in Software Engineering";
     }
 
-    public static String GetDegree() {
-        return "Bachelors Degree in Software Engineering";
-    }
-
-    public static List<String> GetDailyKnowledge() {
+    public static List<String> getMainSkills() {
         return List.of(
             "Java",
-            "Kotlin",
-            "Spring Boot",
+            "C++",
+            "Spring",
             "REST APIs",
             "SQL",
-            "Docker",
-            "Git"
+            "Docker"
         );
     }
 
-    public static String GetFutureGoal() {
-        return "Contribute to open source, work on international projects and share knowledge with the community.";
+    public static List<String> getCurrentlyLearning() {
+        return List.of(
+            "Software Architecture",
+            "Clean Architecture",
+            "Microservices",
+            "System Design"
+        );
+    }
+
+    public static String getFutureGoal() {
+        return "Become a great software engineer and build scalable systems that impact people's lives.";
     }
 }
 ```
