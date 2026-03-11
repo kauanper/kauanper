@@ -11,7 +11,7 @@ public class Kauan {
     public static Map<String, String> getCurrentPosition() {
         return Map.of(
             "role", "Software Engineering Student",
-            "focus", "Backend and Fullstack Development"
+            "focus", "Backend Development and DevOps"
         );
     }
 
