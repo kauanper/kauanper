@@ -1,16 +1,42 @@
-## Hi there 👋
+Hi there, I'm Kauan! 👋
 
-<!--
-**kauanper/kauanper** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```java
+package KauanCavalcante;
 
-Here are some ideas to get you started:
+import java.util.List;
+import java.util.Map;
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+public class KauanCavalcante {
+
+    public static Map<String, String> GetCurrentWorkPosition() {
+        return Map.of(
+            "company", "University / Personal Projects",
+            "position", "Software Engineering Student"
+        );
+    }
+
+    public static String GetYoutubeChannel() {
+        return "https://www.youtube.com/";
+    }
+
+    public static String GetDegree() {
+        return "Bachelors Degree in Software Engineering";
+    }
+
+    public static List<String> GetDailyKnowledge() {
+        return List.of(
+            "Java",
+            "Kotlin",
+            "Spring Boot",
+            "REST APIs",
+            "SQL",
+            "Docker",
+            "Git"
+        );
+    }
+
+    public static String GetFutureGoal() {
+        return "Contribute to open source, work on international projects and share knowledge with the community.";
+    }
+}
+```
